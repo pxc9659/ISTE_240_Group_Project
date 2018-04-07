@@ -1,11 +1,11 @@
 <?php
-	$title='PATLS : ls';
+	$title='PALTS : ls';
 	$path='../../';
 	$nav='ls';
 	include($path.'assets/inc/header.php');
 ?>
 <body>
-	<div class="content">
+	<main>
 		<h1>ls</h1>
 		<p>
 			This command is used when you want to browse the file structure of your system.
@@ -33,7 +33,7 @@
 			Goes through the directory hierarchy recursively.
 			 If there are folders below the one you called ls on, the -R argument will list those folders as well.
 		</ul>
-	</div>
+	</main>
 </body>
 <?php
 	include($path.'assets/inc/footer.php');

@@ -1,27 +1,44 @@
 /*Pop and Lock the Stack*/
 /*CSS for the homepage on the mobile screen*/
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
 	background-color: #444247;
 	font-family: 'Roboto Light', sans-serif;
+	/* CHANGE THIS MARGIN LATER TO ACCOUNT FOR THE RIGHT NAV AND THE HEADER */
+	margin: 5em;
 }
 
-div.content{
+main {
     color: #f4f4f4;
     background-color: #444247;
-    font-family: 'Roboto Light', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-div.userInteraction{
+main.userInteraction{
 	border-radius: 25px;
 	border: 2px solid #49CBC1;
 	background-color: #f4f4f4;
 }
 
 ul.preBox{
+	padding: 1em;
 	border-radius: 25px;
 	border: 2px solid #FFBB69;
 	background-color: #FFDA8B;
+}
+
+ul li {
+	margin-left: 1em;
+}
+
+p {
+	margin-top: 2em;
+	margin-bottom: 2em;
 }
 
 h1, h2, h3{
