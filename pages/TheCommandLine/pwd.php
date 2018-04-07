@@ -6,7 +6,7 @@
 ?>
 <body>
 	<main>
-		<h1>PWD</h1>
+		<h2>pwd</h2>
 		<p>
 			This command is used to figure out what folder you are currently located in.
 			 Typing ‘pwd’ into a command line will give you the path to this folder.
