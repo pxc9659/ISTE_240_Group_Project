@@ -15,7 +15,7 @@
 			 Note that this command only accepts folder paths, as you can only change into directories.
 			 There are certain ways to shorten and abbreviate paths, described below:
 		</p>
-		<ul>
+		<ul class="preBox">
 			<li><pre>~</pre></li>
 			Refers to the users home folder.
 			 This means that the command ‘cd ~/folder’ brings the user to the folder named ‘folder’ in their home directory.

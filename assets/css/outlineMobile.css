@@ -6,13 +6,19 @@ body{
 	font-family: 'Roboto Light', sans-serif;
 }
 
+div.content{
+    color: #f4f4f4;
+    background-color: #444247;
+    font-family: 'Roboto Light', sans-serif;
+}
+
 div.userInteraction{
 	border-radius: 25px;
 	border: 2px solid #49CBC1;
 	background-color: #f4f4f4;
 }
 
-div.preBox{
+ul.preBox{
 	border-radius: 25px;
 	border: 2px solid #FFBB69;
 	background-color: #FFDA8B;
