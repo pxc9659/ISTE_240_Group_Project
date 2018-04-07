@@ -1,11 +1,11 @@
 <?php
-	$title='PATLS : rmdir';
+	$title='PALTS : rmdir';
 	$path='../../';
 	$nav='rmdir';
 	include($path.'assets/inc/header.php');
 ?>
 <body>
-	<div class="content">
+	<main>
 		<h1>rmdir</h1>
 		<p>
 			This command is similar to mkdir in options but has the opposite purpose.
@@ -17,7 +17,7 @@
 			Removes parent directories that are empty as well.
 			 The command ‘rmdir folder/inside’ would remove the inside and folder directories, provided that they are both empty.
 		</ul>
-	</div>
+	</main>
 </body>
 <?php
 	include($path.'assets/inc/footer.php');

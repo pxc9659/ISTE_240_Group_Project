@@ -1,11 +1,11 @@
 <?php
-	$title='PATLS : rm';
+	$title='PALTS : rm';
 	$path='../../';
 	$nav='rm';
 	include($path.'assets/inc/header.php');
 ?>
 <body>
-	<div class="content">
+	<main>
 		<h1>rm</h1>
 		<p>
 			This is the command used to remove files.
@@ -25,7 +25,7 @@
 			This stands for recursive, and will remove the subfolders and files of a parent folder.
 			 This argument is commonly used with the f argument, so that parent folders along with their contents can be removed with little intervention on the part of the user.
 		</ul>
-	</div>
+	</main>
 </body>
 <?php
 	include($path.'assets/inc/footer.php');

@@ -1,11 +1,11 @@
 <?php
-	$title='PATLS : cd';
+	$title='PALTS : cd';
 	$path='../../';
 	$nav='cd';
 	include($path.'assets/inc/header.php');
 ?>
 <body>
-	<div class="content">
+	<main>
 		<h1>cd</h1>
 		<p>
 			This is a very simple command, and does not require much explanation.
@@ -27,7 +27,7 @@
 			Note that it is also possible to navigate without using ‘absolute’ or full, path names.
 			 If you are located in your home directory, and type ‘cd folder’, it will intelligently deduce that you want to navigate to the folder below where you currently are.
 		</p>
-	</div>
+	</main>
 </body>
 <?php
 	include($path.'assets/inc/footer.php');

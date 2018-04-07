@@ -1,11 +1,11 @@
 <?php
-	$title='PATLS : mkdir';
+	$title='PALTS : mkdir';
 	$path='../../';
 	$nav='';
 	include($path.'assets/inc/header.php');
 ?>
 <body>
-	<div class="content">
+	<main>
 		<h1>mkdir</h1>
 		<p>
 			This command is used to make directories.
@@ -22,7 +22,7 @@
 			 Now, the user does not have to change the permissions of the folder after creation.
 			 An example of a way this flag could be used is ‘mkdir -m 777 /folder/inside’.
 		<ul>
-	</div>
+	</main>
 </body>
 <?php
 	include($path.'assets/inc/footer.php');
