@@ -6,7 +6,7 @@
 ?>
 <body>
 	<main>
-		<h1>Introduction</h1>
+		<h2>Introduction</h2>
 		<p>
 			The command line is where it all happens in Linux.
 			 Every Linux distribution contains the command line, and most likely everyone who uses Linux will use the command line.
