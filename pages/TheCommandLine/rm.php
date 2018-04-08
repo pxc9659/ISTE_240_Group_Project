@@ -2,7 +2,7 @@
 	$title='PALTS : rm';
 	$path='../../';
 	$nav='rm';
-	include($path.'assets/inc/header.php');
+	include($path.'assets/inc/head.php');
 ?>
 <body>
 	<main>
@@ -31,8 +31,6 @@
 			 This argument is commonly used with the f argument, so that parent folders along with their contents can be removed with little intervention on the part of the user.
 			</p>
 		</ul>
-	</main>
-</body>
 <?php
 	include($path.'assets/inc/footer.php');
 ?>

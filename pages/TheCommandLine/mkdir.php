@@ -2,7 +2,7 @@
 	$title='PALTS : mkdir';
 	$path='../../';
 	$nav='';
-	include($path.'assets/inc/header.php');
+	include($path.'assets/inc/head.php');
 ?>
 <body>
 	<main>
@@ -26,8 +26,6 @@
 			 An example of a way this flag could be used is ‘mkdir -m 777 /folder/inside’.
 			</p>
 		<ul>
-	</main>
-</body>
 <?php
 	include($path.'assets/inc/footer.php');
 ?>

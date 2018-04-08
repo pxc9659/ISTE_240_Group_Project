@@ -2,7 +2,7 @@
 	$title='PALTS : ls';
 	$path='../../';
 	$nav='ls';
-	include($path.'assets/inc/header.php');
+	include($path.'assets/inc/head.php');
 ?>
 <body>
 	<main>
@@ -41,8 +41,6 @@
 				 If there are folders below the one you called ls on, the -R argument will list those folders as well.
 			</p>
 		</ul>
-	</main>
-</body>
 <?php
 	include($path.'assets/inc/footer.php');
 ?>

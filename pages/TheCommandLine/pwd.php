@@ -2,7 +2,7 @@
 	$title='PALTS : pwd';
 	$path='../../';
 	$nav='pwd';
-	include($path.'assets/inc/header.php');
+	include($path.'assets/inc/head.php');
 ?>
 <body>
 	<main>
@@ -12,8 +12,6 @@
 			 Typing ‘pwd’ into a command line will give you the path to this folder.
 			 This is useful when you are trying to navigate through directories, and for knowing that you are in the right directory before executing a particular command.
 		</p>
-	</main>
-</body>
 <?php
 	include($path.'assets/inc/footer.php');
 ?>
