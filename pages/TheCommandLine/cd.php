@@ -15,18 +15,16 @@
 			 Note that this command only accepts folder paths, as you can only change into directories.
 			 There are certain ways to shorten and abbreviate paths, described below:
 		</p>
-		<ul>
-			<li><pre class="preBox">~</pre></li>
-			<p>
+			<pre class="preBox">~</pre>
+			<p class="preText">
 				Refers to the users home folder.
 				 This means that the command ‘cd ~/folder’ brings the user to the folder named ‘folder’ in their home directory.
 			</p>
-			<li><pre class="preBox">..</pre></li>
-			<p>
+			<pre class="preBox">..</pre>
+			<p class="preText">
 				Refers to the parent folder of the current location.
 				 This can be used to refer to files outside of the folder you are in.
 			</p>
-		</ul>
 		<p>
 			Note that it is also possible to navigate without using ‘absolute’, or full, path names.
 			 If you are located in your home directory, and type ‘cd folder’, it will intelligently deduce that you want to navigate to the folder below where you currently are.

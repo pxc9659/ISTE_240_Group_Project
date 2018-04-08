@@ -15,22 +15,20 @@
 			The standard command is written something like the following: ‘rm filename.ext’.
 			 However, a few of the following options can be used in certain cases:
 		</p>
-		<ul>
-			<li><pre class="preBox">-f</pre></li>
-			<p>
+			<pre class="preBox">-f</pre>
+			<p class="preText">
 				This argument is used to force the file to delete, ignoring errors such as the existence of the file.
 			</p>
-			<li><pre class="preBox">-i</pre></li>
-			<p>
+			<pre class="preBox">-i</pre>
+			<p class="preText">
 				This will prompt the user to confirm before removing the file.
 				 This could be useful when working with sensitive information, so that a user could not delete important data without confirming.
 			</p>
-			<li><pre class="preBox">-r</pre></li>
-			<p>
+			<pre class="preBox">-r</pre>
+			<p class="preText">
 			This stands for recursive, and will remove the subfolders and files of a parent folder.
 			 This argument is commonly used with the f argument, so that parent folders along with their contents can be removed with little intervention on the part of the user.
 			</p>
-		</ul>
 <?php
 	include($path.'assets/inc/footer.php');
 ?>

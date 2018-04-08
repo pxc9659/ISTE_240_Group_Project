@@ -44,18 +44,19 @@ main ul li {
 	list-style-type: none;
 }
 
-main ul > p {
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+p.preText {
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
-main ul li > pre.preBox {
+main > pre.preBox {
 	padding: 1em;
 	border-radius: 5px;
 	border: 2px solid #FFBB69;
 	background-color: #FFDA8B;
 	color: #442747;
 }
+
 /*
  * END:
  * Style of flags section.
