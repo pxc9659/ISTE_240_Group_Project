@@ -28,7 +28,7 @@
 			</p>
 		</ul>
 		<p>
-			Note that it is also possible to navigate without using ‘absolute’ or full, path names.
+			Note that it is also possible to navigate without using ‘absolute’, or full, path names.
 			 If you are located in your home directory, and type ‘cd folder’, it will intelligently deduce that you want to navigate to the folder below where you currently are.
 		</p>
 	</main>
