@@ -2,7 +2,7 @@
 	$title='PALTS : The Command Line';
 	$path='../../';
 	$nav='introduction';
-	include($path.'assets/inc/header.php');
+	include($path.'assets/inc/head.php');
 ?>
 <body>
 	<main>
@@ -14,8 +14,6 @@
 			 I mean, isn’t that what the mouse and graphics were invented for?
 			 In this module, you are going to learn about how to efficiently navigate the UNIX command line, and do common tasks you would do with a mouse using just your keyboard and a terminal window.
 		 </p>
-	</main>
-</body>
 <?php
 	include($path.'assets/inc/footer.php');
 ?>

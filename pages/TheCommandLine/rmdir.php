@@ -2,7 +2,7 @@
 	$title='PALTS : rmdir';
 	$path='../../';
 	$nav='rmdir';
-	include($path.'assets/inc/header.php');
+	include($path.'assets/inc/head.php');
 ?>
 <body>
 	<main>
@@ -19,8 +19,6 @@
 				 The command ‘rmdir folder/inside’ would remove the inside and folder directories, provided that they are both empty.
 			</p>
 		</ul>
-	</main>
-</body>
 <?php
 	include($path.'assets/inc/footer.php');
 ?>
