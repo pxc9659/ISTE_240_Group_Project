@@ -69,8 +69,20 @@ main.userInteraction{
 
 
 /*Mobile phone CSS*/
-@media screen only and (max-width: 450px){
+@media only screen and (max-width: 450px){
+
+	main {
+		font-size: 100%;
+	}
+
 	div.userInteraction{
 		
+	}
+}
+
+/* Style for Desktop Only */
+@media only screen and (min-width: 1000px) {
+	main {
+		font-size: 120%;
 	}
 }
