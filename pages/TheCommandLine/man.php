@@ -15,9 +15,9 @@
 			 Man can be used in conjunction with this tool; while this tool only provides the essential information, you can do a deep dive on any of the commands discussed here by using man.
 		</p>
 	</main>
-</body>
 <?php
 	include($path.'assets/inc/footer.php');
 ?>
-
+</body>
+</html>
 
