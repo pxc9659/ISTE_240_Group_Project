@@ -2,7 +2,7 @@
 	$title='PALTS : HOME';
 	$path='./';
 	$nav='';
-	include($path.'assets/inc/header.php');
+	include($path.'assets/inc/head.php');
 	// include($path.'assets/inc/nav.php');
 ?>
 <body>
