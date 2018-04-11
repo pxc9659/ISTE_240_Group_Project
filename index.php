@@ -3,7 +3,7 @@
 	$path='./';
 	$nav='';
 	include($path.'assets/inc/head.php');
-	// include($path.'assets/inc/nav.php');
+	include($path.'assets/inc/nav.php');
 ?>
 <body>
 	<h1>We'll make something of this I'm sure...</h1>

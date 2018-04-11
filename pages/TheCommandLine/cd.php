@@ -3,6 +3,7 @@
 	$path='../../';
 	$nav='cd';
 	include($path.'assets/inc/head.php');
+	include($path.'assets/inc/nav.php');
 ?>
 <body>
 	<main>
