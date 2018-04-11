@@ -4,6 +4,9 @@
 	$nav='pwd';
 	include($path.'assets/inc/head.php');
 ?>
+</head>
+</body>
+	<main>
 		<h2>pwd</h2>
 		<p>
 			This command is used to figure out what folder you are currently located in.

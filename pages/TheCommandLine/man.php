@@ -4,6 +4,9 @@
 	$nav='man';
 	include($path.'assets/inc/head.php');
 ?>
+</head>
+</body>
+	<main>
 		<h1>Man</h1>
 		<p>
 			This command is used to get the manual on how to use a command.

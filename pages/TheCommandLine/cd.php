@@ -4,6 +4,9 @@
 	$nav='cd';
 	include($path.'assets/inc/head.php');
 ?>
+</head>
+</body>
+	<main>
 		<h2>cd</h2>
 		<p>
 			This is a very simple command, and does not require much explanation.
