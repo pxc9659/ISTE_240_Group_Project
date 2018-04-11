@@ -6,8 +6,6 @@
 	include($path.'assets/inc/nav.php');
 
 ?>
-<body>
-	<main>
 		<h2>ls</h2>
 		<p>
 			This command is used when you want to browse the file structure of your system.

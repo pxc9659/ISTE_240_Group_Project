@@ -5,8 +5,6 @@
 	include($path.'assets/inc/head.php');
 	include($path.'assets/inc/nav.php');
 ?>
-<body>
-	<main>
 		<h2>rmdir</h2>
 		<p>
 			This command is similar to mkdir in options but has the opposite purpose.

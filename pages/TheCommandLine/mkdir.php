@@ -5,8 +5,6 @@
 	include($path.'assets/inc/head.php');
 	include($path.'assets/inc/nav.php');
 ?>
-<body>
-	<main>
 		<h2>mkdir</h2>
 		<p>
 			This command is used to make directories.

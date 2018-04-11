@@ -5,8 +5,6 @@
 	include($path.'assets/inc/head.php');
 	include($path.'assets/inc/nav.php');
 ?>
-<body>
-	<main>
 		<h2>Introduction</h2>
 		<p>
 			The command line is where it all happens in Linux.

@@ -5,8 +5,6 @@
 	include($path.'assets/inc/head.php');
 	include($path.'assets/inc/nav.php');
 ?>
-<body>
-	<main>
 		<h2>cd</h2>
 		<p>
 			This is a very simple command, and does not require much explanation.
