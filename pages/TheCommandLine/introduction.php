@@ -4,9 +4,23 @@
 	$nav='introduction';
 	include($path.'assets/inc/head.php');
 ?>
-<body>
+<body onload="getOurImage()" onresize="getOurImage()">
+<script>
+function getOurImage() {
+	res=window.innerWidth;
+	doc=document.getElementById('centerImage');
+	if(res < 450) {
+		doc.src="https://i.imgur.com/oXTrCcS.png";
+	}else if( (res>450) && (res<1025) ) {
+		doc.src="https://i.imgur.com/20445Wi.png";
+	}else if( res>1025 ) {
+		doc.src="https://i.imgur.com/qVpyShk.png";
+	}
+}
+</script>
 	<main>
 		<h2>Introduction</h2>
+		<img alt="A blank terminal." id="centerImage" class="mainImage">
 		<p>
 			The command line is where it all happens in Linux.
 			 Every Linux distribution contains the command line, and most likely everyone who uses Linux will use the command line.
