@@ -4,8 +4,6 @@
 	$nav='rm';
 	include($path.'assets/inc/head.php');
 ?>
-<body>
-	<main>
 		<h2>rm</h2>
 		<p>
 			This is the command used to remove files.
