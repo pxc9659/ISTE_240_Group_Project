@@ -4,6 +4,9 @@
 	$nav='ls';
 	include($path.'assets/inc/head.php');
 ?>
+</head>
+</body>
+	<main>
 		<h2>ls</h2>
 		<p>
 			This command is used when you want to browse the file structure of your system.

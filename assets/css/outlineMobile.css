@@ -29,14 +29,6 @@ p {
 	text-indent: 1em;
 }
 
-footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	text-align: center;
-	font-weight: 100;
-}
-
 /* START:
  * Style of flags section.
  */
@@ -62,6 +54,14 @@ main > pre.preBox {
  * Style of flags section.
  */
 
+main .footer {
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-weight: 100;
+	color: #000000;
+}
+
 main.userInteraction{
 	border-radius: 25px;
 	border: 2px solid #49CBC1;
@@ -82,7 +82,7 @@ main.userInteraction{
 }
 
 /* Style for Desktop Only */
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1025px) {
 	main {
 		font-size: 120%;
 	}

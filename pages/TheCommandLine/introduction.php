@@ -4,6 +4,9 @@
 	$nav='introduction';
 	include($path.'assets/inc/head.php');
 ?>
+</head>
+</body>
+	<main>
 		<h2>Introduction</h2>
 		<p>
 			The command line is where it all happens in Linux.
