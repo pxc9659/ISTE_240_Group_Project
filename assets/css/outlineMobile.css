@@ -68,6 +68,7 @@ main .footer {
 	width: 100%;
 	text-align: center;
 	font-weight: 100;
+	color: #000000;
 }
 
 main.userInteraction{
@@ -90,7 +91,7 @@ main.userInteraction{
 }
 
 /* Style for Desktop Only */
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1025px) {
 	main {
 		font-size: 120%;
 	}

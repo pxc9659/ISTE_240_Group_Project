@@ -4,7 +4,8 @@
 	$nav='';
 	include($path.'assets/inc/head.php');
 ?>
-<body>
+</head>
+</body>
 	<main>
 		<h2>mkdir</h2>
 		<p>

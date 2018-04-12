@@ -4,20 +4,8 @@
 	$nav='introduction';
 	include($path.'assets/inc/head.php');
 ?>
-<body onload="getOurImage()" onresize="getOurImage()">
-<script>
-function getOurImage() {
-	res=window.innerWidth;
-	doc=document.getElementById('centerImage');
-	if(res < 450) {
-		doc.src="https://i.imgur.com/oXTrCcS.png";
-	}else if( (res>450) && (res<1025) ) {
-		doc.src="https://i.imgur.com/20445Wi.png";
-	}else if( res>1025 ) {
-		doc.src="https://i.imgur.com/qVpyShk.png";
-	}
-}
-</script>
+</head>
+</body>
 	<main>
 		<h2>Introduction</h2>
 		<img alt="A blank terminal." id="centerImage" class="mainImage">

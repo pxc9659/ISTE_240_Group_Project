@@ -4,7 +4,8 @@
 	$nav='man';
 	include($path.'assets/inc/head.php');
 ?>
-<body>
+</head>
+</body>
 	<main>
 		<h1>Man</h1>
 		<p>

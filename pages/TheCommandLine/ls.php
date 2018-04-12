@@ -4,7 +4,8 @@
 	$nav='ls';
 	include($path.'assets/inc/head.php');
 ?>
-<body>
+</head>
+</body>
 	<main>
 		<h2>ls</h2>
 		<p>
