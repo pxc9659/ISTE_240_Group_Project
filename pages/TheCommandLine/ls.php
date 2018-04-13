@@ -7,9 +7,9 @@
 <h2>palts@tcl$ ls</h2>
 <hr>
 <picture class="titlePicture">
-<source media="(max-width: 450px)" srcset="https://i.imgur.com/g6jGV1c.png">
-<source media="(max-width: 1024px)" srcset="https://i.imgur.com/rADcDft.png">
-<img src="https://i.imgur.com/EOU7AKS.png" alt="An example of the ls command being ran.">
+	<source media="(max-width: 450px)" srcset="https://i.imgur.com/g6jGV1c.png">
+	<source media="(max-width: 1024px)" srcset="https://i.imgur.com/rADcDft.png">
+	<img src="https://i.imgur.com/EOU7AKS.png" alt="An example of the ls command being ran.">
 </picture>
 <p>
 	This command is used when you want to browse the file structure of your system.

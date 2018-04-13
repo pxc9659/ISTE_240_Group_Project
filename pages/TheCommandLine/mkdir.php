@@ -4,7 +4,6 @@
 	$nav='';
 	include($path.'assets/inc/head.php');
 ?>
-</head>
 <h2>palts@tcl$ mkdir</h2>
 <hr>
 <picture class="titlePicture">

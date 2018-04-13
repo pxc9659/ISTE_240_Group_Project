@@ -5,6 +5,7 @@
 	include($path.'assets/inc/head.php');
 ?>
 <h2>palst@tcl$ rmdir</h2>
+<hr>
 <picture class="titlePicture">
 	<source media="(max-width: 450px)" srcset="https://i.imgur.com/IOXNv8f.png">
 	<source media="(max-width: 1024px)" srcset="https://i.imgur.com/Jb8WnOp.png">
