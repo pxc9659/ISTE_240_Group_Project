@@ -4,7 +4,7 @@
 	$nav='pwd';
 	include($path.'assets/inc/head.php');
 ?>
-<h2>palts@tcl$ pwd</h2>
+<h2>The Command Line: pwd</h2>
 <hr>
 <picture class="titlePicture">
 	<source media="(max-width: 450px)" srcset="https://i.imgur.com/aybQkA5.png">

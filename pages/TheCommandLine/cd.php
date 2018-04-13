@@ -4,7 +4,7 @@
 	$nav='cd';
 	include($path.'assets/inc/head.php');
 ?>
-<h2>palts@tcl$ cd</h2>
+<h2>The Command Line: cd</h2>
 <hr>
 <picture class="titlePicture">
 	<source media="(max-width: 450px)" srcset="https://i.imgur.com/0KFH9LL.png">
