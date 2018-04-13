@@ -1,6 +1,9 @@
 /*Pop and Lock the Stack*/
 /*CSS for the homepage on the mobile screen*/
 
+/* ############################################### */
+/* Default CSS section */
+/* ############################################### */
 * {
     margin: 0;
     padding: 0;
@@ -18,20 +21,47 @@ main {
     margin: 2em;
 }
 
+main p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-indent: 1em;
+}
+
+main hr {
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:2px;
+    margin-bottom:2px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(224, 224, 224, 0), rgba(224, 224, 224, 0.75), rgba(224, 224, 224, 0));
+}
+
 main h2 {
     text-align: center;
     font-weight: 400;
 }
 
-p {
-	margin-top: 2em;
-	margin-bottom: 2em;
-	text-indent: 1em;
+
+/* ############################################### */
+/* This is for the <picture> for the title images. */
+/* ############################################### */
+picture.titlePicture {
+    margin: 2em;
 }
 
-/* START:
- * Style of flags section.
- */
+.titlePicture img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    border: 1px;
+    border-radius: 5px;
+    border-color: #f4f4f4;
+}
+
+/* ############################################### */
+/* START: Style of flags section. */
+/* ############################################### */
 main ul li {
 	list-style-type: none;
 }
@@ -49,11 +79,10 @@ main > pre.preBox {
 	color: #442747;
 }
 
-/*
- * END:
- * Style of flags section.
- */
 
+/* ############################################### */
+/* Footer style */
+/* ############################################### */
 main .footer {
 	bottom: 0;
 	width: 100%;
@@ -62,26 +91,19 @@ main .footer {
 	color: #000000;
 }
 
-main.userInteraction{
-	border-radius: 25px;
-	border: 2px solid #49CBC1;
-	background-color: #f4f4f4;
-}
-
-
-/*Mobile phone CSS*/
+/* ############################################### */
+/* MOBILE ONLY CSS */
+/* ############################################### */
 @media only screen and (max-width: 450px){
 
 	main {
 		font-size: 100%;
 	}
-
-	div.userInteraction{
-		
-	}
 }
 
-/* Style for Desktop Only */
+/* ############################################### */
+/* DESKTOP ONLY CSS */
+/* ############################################### */
 @media only screen and (min-width: 1025px) {
 	main {
 		font-size: 120%;
