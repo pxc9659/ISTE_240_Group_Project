@@ -13,12 +13,14 @@ body{
 	background-color: #444247;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+    margin-bottom: 2em;
 }
 
 main {
     color: #f4f4f4;
     background-color: #444247;
     margin: 2em;
+    padding-bottom: 5em;
 }
 
 main p {
@@ -83,8 +85,7 @@ main > pre.preBox {
 /* ############################################### */
 /* Footer style */
 /* ############################################### */
-main .footer {
-	bottom: 0;
+footer {
 	width: 100%;
 	text-align: center;
 	font-weight: 100;
