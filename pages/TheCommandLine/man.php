@@ -18,6 +18,10 @@
 	 You can scroll up and down line by line using the arrow keys, or you can scroll down by multiple lines using the spacebar.
 	 Man can be used in conjunction with this tool; while this tool only provides the essential information, you can do a deep dive on any of the commands discussed here by using man.
 </p>
+<pre class="preBox">user@hostname$ man &lt;command&gt;</pre>
+<p>
+	To use this command you simply type man and the command you want to see the manual page for.
+</p>
 <?php
 	include($path.'assets/inc/footer.php');
 ?>
