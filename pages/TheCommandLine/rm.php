@@ -4,7 +4,7 @@
 	$nav='rm';
 	include($path.'assets/inc/head.php');
 ?>
-<h2>palts@tcl$ rm</h2>
+<h2>The Command Line: rm</h2>
 <hr>
 <picture class="titlePicture">
 	<source media="(max-width: 450px)" srcset="https://i.imgur.com/yghLrlQ.png">
