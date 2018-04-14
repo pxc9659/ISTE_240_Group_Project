@@ -20,7 +20,9 @@ $(document).ready(function() {
 })
 function menu_open() {
     document.getElementById("menu").style.display = "block";
+    document.getElementById("burger_Button").style.display = "none";
 }
 function menu_close() {
     document.getElementById("menu").style.display = "none";
+    document.getElementById("burger_Button").style.display = "block";
 }
