@@ -1,1 +1,0 @@
-<img src="../images/wordsDark.svg" alt="Pop and Lock the Stack">
