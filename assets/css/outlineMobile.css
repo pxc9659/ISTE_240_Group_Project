@@ -1,0 +1,112 @@
+/*Pop and Lock the Stack*/
+/*CSS for the homepage on the mobile screen*/
+
+/* ############################################### */
+/* Default CSS section */
+/* ############################################### */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	background-color: #444247;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+    margin-bottom: 2em;
+}
+
+main {
+    color: #f4f4f4;
+    background-color: #444247;
+    margin: 2em;
+    padding-bottom: 5em;
+}
+
+main p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-indent: 1em;
+}
+
+main hr {
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:2px;
+    margin-bottom:2px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(224, 224, 224, 0), rgba(224, 224, 224, 0.75), rgba(224, 224, 224, 0));
+}
+
+main h2 {
+    text-align: center;
+    font-weight: 400;
+}
+
+
+/* ############################################### */
+/* This is for the <picture> for the title images. */
+/* ############################################### */
+picture.titlePicture {
+    margin: 2em;
+}
+
+.titlePicture img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    border: 1px;
+    border-radius: 5px;
+    border-color: #f4f4f4;
+}
+
+/* ############################################### */
+/* START: Style of flags section. */
+/* ############################################### */
+main ul li {
+	list-style-type: none;
+}
+
+p.preText {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+main > pre.preBox {
+	padding: 1em;
+	border-radius: 5px;
+	border: 2px solid #FFBB69;
+	background-color: #FFDA8B;
+	color: #442747;
+}
+
+
+/* ############################################### */
+/* Footer style */
+/* ############################################### */
+footer {
+	width: 100%;
+	text-align: center;
+	font-weight: 100;
+	color: #000000;
+}
+
+/* ############################################### */
+/* MOBILE ONLY CSS */
+/* ############################################### */
+@media only screen and (max-width: 450px){
+
+	main {
+		font-size: 100%;
+	}
+}
+
+/* ############################################### */
+/* DESKTOP ONLY CSS */
+/* ############################################### */
+@media only screen and (min-width: 1025px) {
+	main {
+		font-size: 120%;
+	}
+}
