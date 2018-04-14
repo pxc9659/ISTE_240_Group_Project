@@ -12,4 +12,5 @@
 	</title>
 </head>
 <body>
-	<main>
+<img src="<?php echo $path;?>assets/images/wordsDark.svg" alt="Pop and Lock the Stack">
+		<main>
