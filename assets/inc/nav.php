@@ -1,4 +1,4 @@
-<div id="navDiv" class="sideNav">
+<nav id="navDiv" class="sideNav">
 	<a href="#" class="closeButton" onclick="closeNavMobile();">&times;</a>
 	<a href="<?php echo $path;?>">Home</a>
 	<hr>
@@ -92,5 +92,5 @@
 	</ul>
 	<hr>
 	<a href="<?php echo $path;?>">About Us &amp; Contact</a>
-</div>
+</nav>
 <div id="openNav" onclick="openNavMobile();">&#9776;</div>
