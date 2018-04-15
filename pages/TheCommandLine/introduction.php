@@ -4,6 +4,7 @@
 	$nav='introduction';
 	include($path.'assets/inc/head.php');
 ?>
+<hr>
 <h2>The Command Line: Introduction</h2>
 <hr>
 <picture class="titlePicture">

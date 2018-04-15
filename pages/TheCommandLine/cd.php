@@ -4,6 +4,7 @@
 	$nav='cd';
 	include($path.'assets/inc/head.php');
 ?>
+<hr>
 <h2>The Command Line: cd</h2>
 <hr>
 <picture class="titlePicture">

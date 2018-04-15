@@ -4,7 +4,8 @@
 	$nav='rmdir';
 	include($path.'assets/inc/head.php');
 ?>
-<h2>palst@tcl$ rmdir</h2>
+<hr>
+<h2>The Command Line: rmdir</h2>
 <hr>
 <picture class="titlePicture">
 	<source media="(max-width: 450px)" srcset="https://i.imgur.com/IOXNv8f.png">

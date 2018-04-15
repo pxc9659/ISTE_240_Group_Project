@@ -4,6 +4,7 @@
 	$nav='';
 	include($path.'assets/inc/head.php');
 ?>
+<hr>
 <h2>The Command Line: mkdir</h2>
 <hr>
 <picture class="titlePicture">

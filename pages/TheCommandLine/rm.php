@@ -4,6 +4,7 @@
 	$nav='rm';
 	include($path.'assets/inc/head.php');
 ?>
+<hr>
 <h2>The Command Line: rm</h2>
 <hr>
 <picture class="titlePicture">
