@@ -170,13 +170,6 @@ footer {
 	left: 10px;
 	color: #f4f4f4;
     }
-
-    #openNav:hover {
-
-    }
-
-    .sideNav .closeButton:hover {
-    }
 }
 
 /* ############################################### */
@@ -226,6 +219,16 @@ footer {
 	padding-top: 60px;
 	background-color: #302F33;
 	transition: 0.5s ease-in-out;
+    }
+
+    .sideNav hr {
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:2px;
+	margin-bottom:2px;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(224, 224, 224, 0), rgba(224, 224, 224, 0.75), rgba(224, 224, 224, 0));
     }
 
     .sideNav a {
