@@ -13,6 +13,9 @@
 	</title>
 </head>
 <body>
+<?php
+	include($path.'assets/inc/nav.php');
+?>
 <div class="banner">
 	<img src="<?php echo $path;?>assets/images/wordsDark2.svg" class="banner" alt="Pop and Lock the Stack">
 </div>

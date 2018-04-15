@@ -3,7 +3,6 @@
 	$path='../../';
 	$nav='rm';
 	include($path.'assets/inc/head.php');
-	include($path.'assets/inc/nav.php');
 ?>
 <hr>
 <h2>The Command Line: rm</h2>

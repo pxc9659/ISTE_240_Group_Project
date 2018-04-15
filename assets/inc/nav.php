@@ -1,5 +1,6 @@
-<nav id="navigation">
-	<a href="#" class="closebtn" onclick="closeNaveMobile();"
+<div id="navDiv" class="sideNav">
+	<a href="#" class="closeButton" onclick="closeNavMobile();">&times;</a>
 	<a href="<?php echo $path;?>">Home</a>
 	<a href="<?php echo $path;?>">The Command Line</a>
-</nav>
+</div>
+<div id="openNav" onclick="openNavMobile();">&#9776;</div>

@@ -22,6 +22,7 @@ main {
     margin: 2em;
     margin-top: 0;
     padding-bottom: 5em;
+    transition: margin-left 0.5s;
 }
 
 main p {
@@ -44,37 +45,6 @@ main h2 {
     text-align: center;
     font-weight: 400;
 }
-
-/* ############################################### */
-/* This is the section for the nav */
-/* ############################################### */
-nav #navigation{
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #302F33
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-#navigation a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    display: block;
-    color: #f4f4f4;
-    transition: 0.3s
-}
-
-main nav .closeButton {
-    top: 0;
-    right 25px;
-    margin-left: 25px;
-}
-
 
 /* ############################################### */
 /* This section is for the banner image. */
@@ -144,6 +114,48 @@ footer {
     main {
 	font-size: 100%;
     }
+
+    /* This is the section for the mobile nav */
+    .sideNav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	padding-top: 60px;
+	background-color: #302F33;
+	transition: 0.5s ease-in-out;
+    }
+
+    .sideNav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+    }
+
+    .sideNav .closeButton {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+    }
+
+    #openNav {
+	position: fixed;
+	padding: 0.5em;
+	background-color: #444247;
+	border-top: 1px solid #f4f4f4;
+	border-right: 1px solid #f4f4f4;
+	border-bottom: 1px solid #f4f4f4;
+	top: 5%;
+	left: 10px;
+	color: #f4f4f4;
+    }
 }
 
 /* ############################################### */
@@ -177,5 +189,15 @@ footer {
 	border: 1px solid;
 	border-radius: 5px;
 	border-color: #f4f4f4;
+    }
+
+    /* Just don't show the close button on desktop. */
+    .sideNav .closeButton{
+	display: none;
+    }
+
+    /* Just don't show the open button on desktop. */
+    #openNav {
+	display: none;
     }
 }
