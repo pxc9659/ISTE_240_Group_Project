@@ -4,6 +4,7 @@
 	$nav='man';
 	include($path.'assets/inc/head.php');
 ?>
+<hr>
 <h2>The Command Line: man</h2>
 <hr>
 <picture class="titlePicture">

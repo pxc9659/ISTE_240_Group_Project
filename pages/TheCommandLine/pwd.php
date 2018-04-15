@@ -4,6 +4,7 @@
 	$nav='pwd';
 	include($path.'assets/inc/head.php');
 ?>
+<hr>
 <h2>The Command Line: pwd</h2>
 <hr>
 <picture class="titlePicture">

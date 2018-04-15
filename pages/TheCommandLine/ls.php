@@ -4,6 +4,7 @@
 	$nav='ls';
 	include($path.'assets/inc/head.php');
 ?>
+<hr>
 <h2>The Command Line: ls</h2>
 <hr>
 <picture class="titlePicture">
