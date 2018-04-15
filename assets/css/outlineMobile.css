@@ -14,6 +14,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     margin-bottom: 2em;
+    transition: margin-left 0.5s;
 }
 
 main {
@@ -116,9 +117,74 @@ footer {
 }
 
 /* ############################################### */
-/* MOBILE ONLY CSS */
+/* BOTH TABLET AN MOBILE NAVIGATION */
+/* ############################################### */
+@media only screen and (max-width: 1024px){
+    .sideNav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	padding-top: 60px;
+	background-color: #302F33;
+	transition: 0.5s ease-in-out;
+    }
+
+    .sideNav hr {
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:2px;
+	margin-bottom:2px;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(224, 224, 224, 0), rgba(224, 224, 224, 0.75), rgba(224, 224, 224, 0));
+    }
+
+    .sideNav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+    }
+
+    .sideNav .closeButton {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+    }
+
+    #openNav {
+	position: fixed;
+	padding: 0.5em;
+	background-color: #444247;
+	border-top: 1px solid #f4f4f4;
+	border-right: 1px solid #f4f4f4;
+	border-bottom: 1px solid #f4f4f4;
+	top: 5%;
+	left: 10px;
+	color: #f4f4f4;
+    }
+
+    #openNav:hover {
+
+    }
+
+    .sideNav .closeButton:hover {
+    }
+}
+
+/* ############################################### */
+/* TABLET ONLY CSS */
 /* ############################################### */
 @media only screen and (min-width: 451px) and (max-width: 1024px){
+
+    /* If you change these they need to be changed in navigation.js */
     body{
 	margin-left: 10%;
 	margin-right: 10%;
@@ -133,6 +199,7 @@ footer {
 /* DESKTOP ONLY CSS */
 /* ############################################### */
 @media only screen and (min-width: 1025px) {
+
     body{
 	margin-left: 20%;
 	margin-right: 20%;
@@ -146,5 +213,36 @@ footer {
 	border: 1px solid;
 	border-radius: 5px;
 	border-color: #f4f4f4;
+    }
+
+    .sideNav {
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	padding-top: 60px;
+	background-color: #302F33;
+	transition: 0.5s ease-in-out;
+    }
+
+    .sideNav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+    }
+
+    /* Just don't show the close button on desktop. */
+    .sideNav .closeButton{
+	display: none;
+    }
+
+    /* Just don't show the open button on desktop. */
+    #openNav {
+	display: none;
     }
 }
