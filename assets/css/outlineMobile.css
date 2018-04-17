@@ -44,6 +44,10 @@ main hr {
     background-image: linear-gradient(to right, rgba(224, 224, 224, 0), rgba(224, 224, 224, 0.75), rgba(224, 224, 224, 0));
 }
 
+main h1 {
+	text-align: center;
+}
+
 main h2 {
     text-align: center;
     font-weight: 400;
@@ -51,6 +55,10 @@ main h2 {
 
 nav ul li {
 	padding-left: 1.5em;
+}
+
+label:hover {
+	cursor: pointer;
 }
 
 /* ############################################### */
