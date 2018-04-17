@@ -6,11 +6,10 @@
 	// include($path.'assets/inc/nav.php');
 ?>
 	<h2>Our Goal</h2>
+	<hr>
 	<picture class="titlePicture">
 		<img src="https://i.imgur.com/N28sxNA.jpg" alt="Bubba's workstation.">
 	</picture>
-	<hr>
-
 	<p>
 		POP &amp; LOCK the STACK is a website with references and tutorials on UNIX development for beginners and novice users.
 		 The main goal of this site is to be educative and be a helpful tool for developers to use it as a guide for their work.
