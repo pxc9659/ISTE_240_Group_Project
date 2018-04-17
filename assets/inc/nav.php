@@ -13,7 +13,7 @@
 		<li<?php if(isset($nav) && $nav=='man'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/man.php">&nbsp &nbsp man</a></li>
 		<li<?php if(isset($nav) && $nav=='mkdir'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/mkdir.php">&nbsp &nbsp mkdir</a></li>
 		<li<?php if(isset($nav) && $nav=='rmdir'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/rmdir.php">&nbsp &nbsp rmdir</a></li>
-		<li<?php if(isset($nav) && $nav=='quiz'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/rmdir.php">&nbsp &nbsp Quiz</a></li>
+		<li<?php if(isset($nav) && $nav=='quiz'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/tcl_quiz.php">&nbsp &nbsp Quiz</a></li>
 	</ul>
 
 	<input type="checkbox" name="files" id="files">
