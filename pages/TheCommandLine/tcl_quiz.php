@@ -139,9 +139,8 @@ include($path.'assets/inc/head.php');
 
 <!--show score upon submit-->
     <div>
-	<h2 class="quizScore" id="userScore"></h2>
+		<h2 class="quizScore" id="userScore">Your score will appear here.</h2>
     </div>
-	</div>
 <?php
 include($path.'assets/inc/footer.php');
 ?>
