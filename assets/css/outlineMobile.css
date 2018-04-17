@@ -61,6 +61,10 @@ label:hover {
 	cursor: pointer;
 }
 
+.quizQuestion input {
+	margin-left: 4em;
+}
+
 /* ############################################### */
 /* This section is for the banner image. */
 /* ############################################### */
