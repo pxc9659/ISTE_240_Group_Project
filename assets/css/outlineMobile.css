@@ -54,15 +54,15 @@ main h2 {
 }
 
 nav ul li {
-	padding-left: 1.5em;
+	padding-left: 0em;
 }
 
 label:hover {
 	cursor: pointer;
+	background: #4f4e4e;
 }
-
-.quizQuestion input {
-	margin-left: 4em;
+a:hover{
+	background: #4f4e4e;
 }
 
 /* ############################################### */
@@ -103,7 +103,7 @@ nav ul li {
 }
 
 main ul li {
-	margin-left: 2em;
+	list-style-type: none;
 }
 
 p.preText {
@@ -174,7 +174,7 @@ footer {
     .sideNav a, .sideNav label {
 	padding: 8px 8px 8px 32px;
 	text-decoration: none;
-	color: #818181;
+	color: #ADADAD;
 	display: block;
 	transition: 0.3s;
     }
@@ -283,7 +283,7 @@ footer {
     .sideNav a , .sideNav label{
 	padding: 8px 8px 8px 32px;
 	text-decoration: none;
-	color: #818181;
+	color: #ADADAD;
 	display: block;
 	transition: 0.3s;
     }

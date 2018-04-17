@@ -21,3 +21,10 @@ function closeNavMobile(){
 		document.body.style.marginLeft=defaultMarginLeft;
 	}
 }
+
+function getActive(){
+	var ac = document.getElementsByClassName("active")[0];
+	if(ac != ""){
+		ac.parentNode.previousElementSibling.previousElementSibling.checked = true;	
+	}	
+}
