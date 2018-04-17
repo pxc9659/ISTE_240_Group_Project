@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="<?php echo $path;?>assets/css/outlineMobile.css">
 	<link rel="icon" href="<?php echo $path;?>assets/images/coloredIcon.png">
 	<script src="<?php echo $path;?>assets/scripts/navigation.js"></script>
+	<script src="<?php echo $path;?>/assets/scripts/quiz.js"></script>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>
 		<?php echo $title?>
@@ -17,4 +18,4 @@
 <div class="banner">
 	<img src="<?php echo $path;?>assets/images/wordsDark2.svg" class="banner" alt="Pop and Lock the Stack">
 </div>
-		<main>
+	<main>

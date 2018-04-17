@@ -1,4 +1,4 @@
-function submitQuiz() {
+function submitQuiz_TCL_QUIZ() {
 		console.log('submitted');
 
 	// get each answer score
@@ -24,7 +24,7 @@ function submitQuiz() {
 
 	// function to return correct answer string
 		function correctAnswer (correctStringNo, qNumber) {
-			console.log("qNumber: " + qNumber);  
+			console.log("qNumber: " + qNumber);
 			return ("The correct answer for question #" + qNumber + ": &nbsp;<strong>" +
 				(document.getElementById(correctStringNo).innerHTML) + "</strong>");
 			}
@@ -51,8 +51,8 @@ function submitQuiz() {
 		if (answerScore('q7') === 0) {
 			document.getElementById('correctAnswer7').innerHTML = correctAnswer('correctString7', 7);
 		}
-		
-		
+
+
 
 	// calculate "possible score" integer
 		var questionCountArray = document.getElementsByClassName('question');

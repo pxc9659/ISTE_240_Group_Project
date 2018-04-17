@@ -64,6 +64,7 @@ label:hover {
 a:hover{
 	background: #4f4e4e;
 }
+
 /* ############################################### */
 /* This section is for the banner image. */
 /* ############################################### */
@@ -97,6 +98,10 @@ picture.titlePicture {
 /* ############################################### */
 /* START: Style of flags section. */
 /* ############################################### */
+nav ul li {
+	list-style-type: none;
+}
+
 main ul li {
 	list-style-type: none;
 }
