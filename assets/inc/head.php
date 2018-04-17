@@ -10,7 +10,7 @@
 		<?php echo $title?>
 	</title>
 </head>
-<body>
+<body onload="getActive();">
 <?php
 	include($path.'assets/inc/nav.php');
 ?>
