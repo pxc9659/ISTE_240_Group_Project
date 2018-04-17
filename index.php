@@ -16,7 +16,7 @@
 		
 	<h2>A little about us</h2>
 	<p>This site is a free resource for developers and always will be. 
-	POP & LOCK the STACK was created by a group of 5 members as a group project for their web development class.</p>
+	POP & LOCK the STACK was created by a group of 6 members as a group project for their web development class.</p>
 
 	<?php include($path.'assets/inc/howto.php'); ?>
 
