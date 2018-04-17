@@ -65,6 +65,10 @@ a:hover{
 	background: #4f4e4e;
 }
 
+.quizQuestion input {
+	margin-left: 4em;
+}
+
 /* ############################################### */
 /* This section is for the banner image. */
 /* ############################################### */
