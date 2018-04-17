@@ -54,19 +54,41 @@ main h2 {
 }
 
 nav ul li {
-	padding-left: 0em;
+	padding-left: 1.5em;
 }
 
 label:hover {
 	cursor: pointer;
-	background: #4f4e4e;
-}
-a:hover{
-	background: #4f4e4e;
 }
 
 .quizQuestion input {
 	margin-left: 4em;
+}
+
+/* ------ COMMENTS CSS --------*/
+
+form input, form textarea {
+	border-radius: 6px;
+}
+
+form input {
+	font-size: 100%;
+	padding: .5em;
+}
+
+form textarea {
+	padding: 1em;
+	font-size: 100%;
+}
+
+table {
+	width: 100%;
+	border-radius: 6px;
+}
+
+table tr th, table tr td {
+	border-radius: 6px;
+	padding: .75em;
 }
 
 /* ############################################### */
@@ -107,7 +129,7 @@ nav ul li {
 }
 
 main ul li {
-	list-style-type: none;
+	margin-left: 2em;
 }
 
 p.preText {
@@ -160,10 +182,6 @@ footer {
 	transition: 0.5s ease-in-out;
     }
 
-    .sideNav::-webkit-scrollbar {
-	display: none;  // Safari and Chrome
-    }
-
     .sideNav hr {
 	margin-left:5%;
 	margin-right:5%;
@@ -182,7 +200,7 @@ footer {
     .sideNav a, .sideNav label {
 	padding: 8px 8px 8px 32px;
 	text-decoration: none;
-	color: #ADADAD;
+	color: #818181;
 	display: block;
 	transition: 0.3s;
     }
@@ -273,10 +291,6 @@ footer {
 	transition: 0.5s ease-in-out;
     }
 
-    .sideNav::-webkit-scrollbar {
-	display: none;  // Safari and Chrome
-    }
-
     .sideNav hr {
 	margin-left:5%;
 	margin-right:5%;
@@ -295,7 +309,7 @@ footer {
     .sideNav a , .sideNav label{
 	padding: 8px 8px 8px 32px;
 	text-decoration: none;
-	color: #ADADAD;
+	color: #818181;
 	display: block;
 	transition: 0.3s;
     }
