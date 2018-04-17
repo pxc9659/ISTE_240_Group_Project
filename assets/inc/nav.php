@@ -34,7 +34,7 @@
 	</ul>
 
 	<input type="checkbox" name="permissions" id="permissions">
-	<label for="permissions">Permissoins</label>
+	<label for="permissions">Permissions</label>
 	<ul>
 		<li><a href="<?php echo $path;?>pages/permissions/introduction.php">Introduction</a></li>
 		<li><a href="<?php echo $path;?>pages/permissions/file_permissions.php">File Permissions</a></li>
@@ -91,7 +91,7 @@
 		<li><a href="<?php echo $path;?>pages/distros/quiz.php">Quiz</a></li>
 	</ul>
 	<hr>
-	<a href="<?php echo $path;?>">About Us &amp; Contact</a>
+	<a href="<?php echo $path;?>pages/aboutAndContact.php">About Us &amp; Contact</a>
 </nav>
 <div id="openNav" onclick="openNavMobile();">&#9776;</div>
 
