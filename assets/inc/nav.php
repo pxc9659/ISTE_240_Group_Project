@@ -6,13 +6,13 @@
 	<label for="tcl">The Command Line</label>
 	<ul>
 		<li><a href="<?php echo $path;?>pages/TheCommandLine/introduction.php">Introduction</a></li>
-		<li><a href="<?php echo $path;?>pages/TheCommandLine/ls.php">ls</a></li>
-		<li><a href="<?php echo $path;?>pages/TheCommandLine/pwd.php">pwd</a></li>
-		<li><a href="<?php echo $path;?>pages/TheCommandLine/rm.php">rm</a></li>
-		<li><a href="<?php echo $path;?>pages/TheCommandLine/cd.php">cd</a></li>
-		<li><a href="<?php echo $path;?>pages/TheCommandLine/man.php">man</a></li>
-		<li><a href="<?php echo $path;?>pages/TheCommandLine/mkdir.php">mkdir</a></li>
-		<li><a href="<?php echo $path;?>pages/TheCommandLine/rmdir.php">rmdir</a></li>
+		<li><a href="<?php echo $path;?>pages/TheCommandLine/ls.php">&nbsp &nbsp ls</a></li>
+		<li><a href="<?php echo $path;?>pages/TheCommandLine/pwd.php">&nbsp &nbsp pwd</a></li>
+		<li><a href="<?php echo $path;?>pages/TheCommandLine/rm.php">&nbsp &nbsp rm</a></li>
+		<li><a href="<?php echo $path;?>pages/TheCommandLine/cd.php">&nbsp &nbsp cd</a></li>
+		<li><a href="<?php echo $path;?>pages/TheCommandLine/man.php">&nbsp &nbsp man</a></li>
+		<li><a href="<?php echo $path;?>pages/TheCommandLine/mkdir.php">&nbsp &nbsp mkdir</a></li>
+		<li><a href="<?php echo $path;?>pages/TheCommandLine/rmdir.php">&nbsp &nbsp rmdir</a></li>
 		<li><a href="<?php echo $path;?>pages/TheCommandLine/rmdir.php">Quiz</a></li>
 	</ul>
 
