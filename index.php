@@ -19,7 +19,7 @@
 		 It teaches them all the basic commands and flags associated with each command.
 	</p>
 
-	<h2>A Little About US</h2>
+	<h2>A Little About Us</h2>
 	<hr>
 	<p>
 		This site is a free resource for developers and always will be.

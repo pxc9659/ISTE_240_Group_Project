@@ -1,4 +1,5 @@
 <h2>How to use this site</h2>
+<hr>
 <p>We found that Linux tutorial sites that offered a good range of accessible content were hard to come by. Most people just end up searching their problems on Google Therefore, we set out to make a website thathas all the basics of UNIX commands available in an easily accessible format.</p>
 <p>To get the most out of this site, please follow the below instructions. We promise it won't take long.</p>
 <ul>
