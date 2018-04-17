@@ -94,8 +94,12 @@ picture.titlePicture {
 /* ############################################### */
 /* START: Style of flags section. */
 /* ############################################### */
-main ul li {
+nav ul li {
 	list-style-type: none;
+}
+
+main ul li {
+	margin-left: 2em;
 }
 
 p.preText {
