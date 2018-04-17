@@ -1,5 +1,5 @@
 <?php
-$title='PATLS : Quiz 1';
+$title='PALTS : Quiz 1';
 $path='../../';
 $nav='tcl_quiz';
 include($path.'assets/inc/head.php');
