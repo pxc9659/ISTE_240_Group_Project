@@ -13,7 +13,7 @@
 		<li><a href="<?php echo $path;?>pages/TheCommandLine/man.php">man</a></li>
 		<li><a href="<?php echo $path;?>pages/TheCommandLine/mkdir.php">mkdir</a></li>
 		<li><a href="<?php echo $path;?>pages/TheCommandLine/rmdir.php">rmdir</a></li>
-		<li><a href="<?php echo $path;?>pages/TheCommandLine/quiz.php">Quiz</a></li>
+		<li><a href="<?php echo $path;?>pages/TheCommandLine/tcl_quiz.php">Quiz</a></li>
 	</ul>
 
 	<input type="checkbox" name="files" id="files">
