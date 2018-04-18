@@ -33,6 +33,7 @@
 				while ($comment = $result->fetch_assoc()) {
 					echo '<tr>';
 					echo '<td>'.$comment['Name'].'</td><td>'.$comment['Comment'].'</td>';
+					echo '</tr>';
 				}
 
 			?>
