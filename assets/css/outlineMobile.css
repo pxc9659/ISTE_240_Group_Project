@@ -66,6 +66,17 @@ label:hover {
 	margin-left: 4em;
 }
 
+.submitter input {
+    border-radius: 6px;
+    padding: 1em;
+    box-shadow: none;
+    background-color: #49cbc1;
+    border-color: #2c9b93;
+    border: none;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
 form input, form textarea {
 	border-radius: 6px;
 }
