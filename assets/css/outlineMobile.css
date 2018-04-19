@@ -66,8 +66,6 @@ label:hover {
 	margin-left: 4em;
 }
 
-/* ------ COMMENTS CSS --------*/
-
 form input, form textarea {
 	border-radius: 6px;
 }
@@ -98,6 +96,7 @@ table tr th, table tr td {
 .banner {
     width: 80%;
     margin: auto;
+    margin-bottom: 1em;
 }
 
 .banner img {
@@ -138,20 +137,63 @@ p.preText {
 main > pre.preBox {
 	padding: 1em;
 	border-radius: 5px;
-	border: 2px solid #FFBB69;
+	border: 2px solid #fb981e;
 	background-color: #FFDA8B;
 	color: #442747;
 }
 
 
 /* ############################################### */
-/* Footer style */
+/* GENERIC NAV STUFF */
 /* ############################################### */
-footer {
-	width: 100%;
-	text-align: center;
-	font-weight: 100;
-	color: #000000;
+.sideNav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    background-color: #302F33;
+    transition: 0.5s ease-in-out;
+}
+
+.sideNav hr {
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:2px;
+    margin-bottom:2px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(224, 224, 224, 0), rgba(224, 224, 224, 0.75), rgba(224, 224, 224, 0));
+}
+
+.sideNav input[type=checkbox]{
+    position: absolute;
+    opacity: 0;
+}
+
+.sideNav a, .sideNav label {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #dcdcdc;
+    display: block;
+    transition: 0.3s;
+}
+
+.sideNav ul {
+    display: none;
+    transition: display 0.5s ease-in-out;
+}
+
+.sideNav input[type=checkbox]:checked + label + ul {
+    display: block;
+    background-color:#1d1c1f;
+    transition: display 0.5s ease-in-out;
+}
+
+.sideNav input[type=checkbox]:checked + label {
+    font-weight: 700;
 }
 
 /* ############################################### */
@@ -167,55 +209,9 @@ footer {
 /* BOTH TABLET AN MOBILE NAVIGATION */
 /* ############################################### */
 @media only screen and (max-width: 1024px){
+
     .sideNav {
-	height: 100%;
 	width: 0;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	overflow-x: hidden;
-	padding-top: 60px;
-	background-color: #302F33;
-	transition: 0.5s ease-in-out;
-    }
-
-    .sideNav hr {
-	margin-left:5%;
-	margin-right:5%;
-	margin-top:2px;
-	margin-bottom:2px;
-	border: 0;
-	height: 1px;
-	background-image: linear-gradient(to right, rgba(224, 224, 224, 0), rgba(224, 224, 224, 0.75), rgba(224, 224, 224, 0));
-    }
-
-    .sideNav input[type=checkbox]{
-	position: absolute;
-	opacity: 0;
-    }
-
-    .sideNav a, .sideNav label {
-	padding: 8px 8px 8px 32px;
-	text-decoration: none;
-	color: #818181;
-	display: block;
-	transition: 0.3s;
-    }
-
-    .sideNav ul {
-	display: none;
-	transition: display 0.5s ease-in-out;
-    }
-
-    .sideNav input[type=checkbox]:checked + label + ul {
-	display: block;
-	background-color:#1d1c1f;
-	transition: display 0.5s ease-in-out;
-    }
-
-    .sideNav input[type=checkbox]:checked + label {
-	font-weight: 700;
     }
 
     .sideNav .closeButton {
@@ -276,55 +272,9 @@ footer {
 	border-color: #f4f4f4;
     }
 
+    /* NAV CODE BELOW */
     .sideNav {
-	height: 100%;
 	width: 250px;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	overflow-x: hidden;
-	padding-top: 60px;
-	background-color: #302F33;
-	transition: 0.5s ease-in-out;
-    }
-
-    .sideNav hr {
-	margin-left:5%;
-	margin-right:5%;
-	margin-top:2px;
-	margin-bottom:2px;
-	border: 0;
-	height: 1px;
-	background-image: linear-gradient(to right, rgba(224, 224, 224, 0), rgba(224, 224, 224, 0.75), rgba(224, 224, 224, 0));
-    }
-
-    .sideNav input[type=checkbox]{
-	position: absolute;
-	opacity: 0;
-    }
-
-    .sideNav a , .sideNav label{
-	padding: 8px 8px 8px 32px;
-	text-decoration: none;
-	color: #818181;
-	display: block;
-	transition: 0.3s;
-    }
-
-    .sideNav ul {
-	display: none;
-	transition: display 0.5s ease-in-out;
-    }
-
-    .sideNav input[type=checkbox]:checked + label + ul {
-	display: block;
-	background-color:#1d1c1f;
-	transition: display 0.5s ease-in-out;
-    }
-
-    .sideNav input[type=checkbox]:checked + label {
-	font-weight: 700;
     }
 
     /* Just don't show the close button on desktop. */
@@ -336,4 +286,14 @@ footer {
     #openNav {
 	display: none;
     }
+}
+
+/* ############################################### */
+/* Footer style */
+/* ############################################### */
+footer {
+	width: 100%;
+	text-align: center;
+	font-weight: 100;
+	color: #000000;
 }
