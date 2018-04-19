@@ -1,13 +1,34 @@
 <?php
-	$title='PALTS : cd';
+
+	$pageName = basename(__FILE__, '.php');
+	
 	$path='../../';
-	$nav='cd';
-	include($path.'assets/inc/head.php');
+	$nav=$pageName;
+
+	require($path.'assets/inc/functions.php');
+
+	$title='PALTS : '.getPageName($pageName);
+	require($path.'assets/inc/head.php');
+	include($path.'../../groupconn.php');
 ?>
-<hr>
-<h2>The Command Line: cd</h2>
-<hr>
-<picture class="titlePicture">
+
+<?php
+
+	$result = $conn->query('SELECT * FROM Pages WHERE PageName = \''.$pageName.'\'');
+
+	while ($resultArr = $result->fetch_assoc()) {
+
+		$pageNameString = getPageName($pageName);
+
+		echo '<hr><h2>'.$resultArr['PageParent'].': '.$pageNameString.'</h2><hr>';
+
+		echo $resultArr['Content'];
+	}
+
+?>
+
+
+<!-- <picture class="titlePicture">
 	<source media="(max-width: 450px)" srcset="https://i.imgur.com/0KFH9LL.png">
 	<source media="(max-width: 1024px)" srcset="https://i.imgur.com/E2uwS8H.png">
 	<img src="https://i.imgur.com/d9VROEQ.png" alt="An example of the cd command.">
@@ -33,7 +54,7 @@
 <p>
 	Note that it is also possible to navigate without using ‘absolute’, or full, path names.
 	 If you are located in your home directory, and type ‘cd folder’, it will intelligently deduce that you want to navigate to the folder below where you currently are.
-</p>
+</p> -->
 <?php
 	include($path.'assets/inc/footer.php');
 ?>

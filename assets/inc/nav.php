@@ -5,7 +5,7 @@
 	<input type="checkbox" name="tcl" id="tcl">
 	<label for="tcl">The Command Line</label>
 	<ul>
-		<li<?php if(isset($nav) && $nav=='introduction'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/introduction.php">&nbsp &nbsp Introduction</a></li>
+		<li<?php if(isset($nav) && $nav=='tcl_introduction'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/tcl_introduction.php">&nbsp &nbsp Introduction</a></li>
 		<li<?php if(isset($nav) && $nav=='ls'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/ls.php">&nbsp &nbsp ls</a></li>
 		<li<?php if(isset($nav) && $nav=='pwd'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/pwd.php">&nbsp &nbsp pwd</a></li>
 		<li<?php if(isset($nav) && $nav=='rm'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/rm.php">&nbsp &nbsp rm</a></li>
@@ -19,7 +19,7 @@
 	<input type="checkbox" name="files" id="files">
 	<label for="files">Files</label>
 	<ul>
-		<li><a href="<?php echo $path;?>pages/files/introduction.php">Introduction</a></li>
+		<li><a href="<?php echo $path;?>pages/files/files_introduction.php">Introduction</a></li>
 		<li><a href="<?php echo $path;?>pages/files/head.php">head</a></li>
 		<li><a href="<?php echo $path;?>pages/files/tail.php">tail</a></li>
 		<li><a href="<?php echo $path;?>pages/files/grep.php">grep</a></li>
@@ -36,21 +36,19 @@
 	<input type="checkbox" name="permissions" id="permissions">
 	<label for="permissions">Permissions</label>
 	<ul>
-		<li><a href="<?php echo $path;?>pages/permissions/introduction.php">Introduction</a></li>
-		<li><a href="<?php echo $path;?>pages/permissions/file_permissions.php">File Permissions</a></li>
-		<li><a href="<?php echo $path;?>pages/permissions/chmod.php">chmod</a></li>
-		<li><a href="<?php echo $path;?>pages/permissions/chown.php">chown</a></li>
-		<li><a href="<?php echo $path;?>pages/permissions/groupdel.php">groupdel</a></li>
-		<li><a href="<?php echo $path;?>pages/permissions/userdel.php">userdel</a></li>
-		<li><a href="<?php echo $path;?>pages/permissions/groupadd.php">groupadd</a></li>
-		<li><a href="<?php echo $path;?>pages/permissions/useradd.php">useradd</a></li>
-		<li><a href="<?php echo $path;?>pages/permissions/quiz.php">Quiz</a></li>
+		<li<?php if(isset($nav) && $nav=='permissions_introduction'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/permissions/permissions_introduction.php">Introduction</a></li>
+		<li<?php if(isset($nav) && $nav=='file_permissions'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/permissions/file_permissions.php">File Permissions</a></li>
+		<li<?php if(isset($nav) && $nav=='chmod'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/permissions/chmod.php">chmod</a></li>
+		<li<?php if(isset($nav) && $nav=='chown'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/permissions/chown.php">chown</a></li>
+		<li<?php if(isset($nav) && $nav=='group_del_add'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/permissions/group_del_add.php">groupadd/groupdel</a></li>
+		<li<?php if(isset($nav) && $nav=='user_del_add'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/permissions/user_del_add.php">useradd/userdel</a></li>
+		<li<?php if(isset($nav) && $nav=='permissions_quiz'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/permissions/permissions_quiz.php">Quiz</a></li>
 	</ul>
 
 	<input type="checkbox" name="system" id="system">
 	<label for="system">System Information</label>
 	<ul>
-		<li><a href="<?php echo $path;?>pages/system/introduction.php">Introduction</a></li>
+		<li><a href="<?php echo $path;?>pages/system/system_introduction.php">Introduction</a></li>
 		<li><a href="<?php echo $path;?>pages/system/top.php">top</a></li>
 		<li><a href="<?php echo $path;?>pages/system/w.php">w</a></li>
 		<li><a href="<?php echo $path;?>pages/system/du.php">du</a></li>
@@ -64,7 +62,7 @@
 	<input type="checkbox" name="netservices" id="netservices">
 	<label for="netservices">Network Services</label>
 	<ul>
-		<li><a href="<?php echo $path;?>pages/netservices/introduction.php">Introduction</a></li>
+		<li><a href="<?php echo $path;?>pages/netservices/netservices_introduction.php">Introduction</a></li>
 		<li><a href="<?php echo $path;?>pages/netservices/scp.php">scp</a></li>
 		<li><a href="<?php echo $path;?>pages/netservices/ssh.php">ssh</a></li>
 		<li><a href="<?php echo $path;?>pages/netservices/http.php">http</a></li>
