@@ -25,6 +25,6 @@ function closeNavMobile(){
 function getActive(){
 	var ac = document.getElementsByClassName("active")[0];
 	if(ac != ""){
-		ac.parentNode.previousElementSibling.previousElementSibling.checked = true;	
-	}	
+		ac.parentNode.previousElementSibling.previousElementSibling.checked = true;
+	}
 }
