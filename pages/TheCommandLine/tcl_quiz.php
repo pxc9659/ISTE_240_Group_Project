@@ -91,7 +91,7 @@ include($path.'assets/inc/head.php');
 			<p class="question">6.What does rm -r command do? </p>
 
 		<input class="answer" type="radio" name="q6" value="1" id="q6a1">
-		<label id="correctString6" for="q6a1">It makes sure the directory is empty before deleting it.</label>
+		<label id="correctString6" for="q6a1">It recursively removes directories if they are empty.</label>
 		<br>
 		<input class="answer" type="radio" name="q6" value="0" id="q6a2">
 		<label for="q6a2">It just removes the directory.</label>
