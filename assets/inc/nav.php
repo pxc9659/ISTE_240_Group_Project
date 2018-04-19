@@ -5,15 +5,15 @@
 	<input type="checkbox" name="tcl" id="tcl">
 	<label for="tcl">The Command Line</label>
 	<ul>
-		<li><a href="<?php echo $path;?>pages/TheCommandLine/introduction.php">Introduction</a></li>
-		<li><a href="<?php echo $path;?>pages/TheCommandLine/ls.php">ls</a></li>
-		<li><a href="<?php echo $path;?>pages/TheCommandLine/pwd.php">pwd</a></li>
-		<li><a href="<?php echo $path;?>pages/TheCommandLine/rm.php">rm</a></li>
-		<li><a href="<?php echo $path;?>pages/TheCommandLine/cd.php">cd</a></li>
-		<li><a href="<?php echo $path;?>pages/TheCommandLine/man.php">man</a></li>
-		<li><a href="<?php echo $path;?>pages/TheCommandLine/mkdir.php">mkdir</a></li>
-		<li><a href="<?php echo $path;?>pages/TheCommandLine/rmdir.php">rmdir</a></li>
-		<li><a href="<?php echo $path;?>pages/TheCommandLine/rmdir.php">Quiz</a></li>
+		<li<?php if(isset($nav) && $nav=='introduction'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/introduction.php">&nbsp &nbsp Introduction</a></li>
+		<li<?php if(isset($nav) && $nav=='ls'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/ls.php">&nbsp &nbsp ls</a></li>
+		<li<?php if(isset($nav) && $nav=='pwd'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/pwd.php">&nbsp &nbsp pwd</a></li>
+		<li<?php if(isset($nav) && $nav=='rm'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/rm.php">&nbsp &nbsp rm</a></li>
+		<li<?php if(isset($nav) && $nav=='cd'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/cd.php">&nbsp &nbsp cd</a></li>
+		<li<?php if(isset($nav) && $nav=='man'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/man.php">&nbsp &nbsp man</a></li>
+		<li<?php if(isset($nav) && $nav=='mkdir'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/mkdir.php">&nbsp &nbsp mkdir</a></li>
+		<li<?php if(isset($nav) && $nav=='rmdir'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/rmdir.php">&nbsp &nbsp rmdir</a></li>
+		<li<?php if(isset($nav) && $nav=='tcl_quiz'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/tcl_quiz.php">&nbsp &nbsp Quiz</a></li>
 	</ul>
 
 	<input type="checkbox" name="files" id="files">
@@ -34,7 +34,7 @@
 	</ul>
 
 	<input type="checkbox" name="permissions" id="permissions">
-	<label for="permissions">Permissoins</label>
+	<label for="permissions">Permissions</label>
 	<ul>
 		<li><a href="<?php echo $path;?>pages/permissions/introduction.php">Introduction</a></li>
 		<li><a href="<?php echo $path;?>pages/permissions/file_permissions.php">File Permissions</a></li>
@@ -91,6 +91,7 @@
 		<li><a href="<?php echo $path;?>pages/distros/quiz.php">Quiz</a></li>
 	</ul>
 	<hr>
-	<a href="<?php echo $path;?>">About Us &amp; Contact</a>
+	<a href="<?php echo $path;?>pages/aboutAndContact.php">About Us &amp; Contact</a>
 </nav>
 <div id="openNav" onclick="openNavMobile();">&#9776;</div>
+

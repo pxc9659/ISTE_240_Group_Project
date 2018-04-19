@@ -20,7 +20,7 @@
 <pre class="preBox">user@hostname$ pwd</pre>
 <p class="preText">
 	This is a simple command without much options.
-	 Simply enter pwd into the termal and get the workding directory path.
+	 Simply enter pwd into the terminal and get the workding directory path.
 </p>
 <?php
 	include($path.'assets/inc/footer.php');

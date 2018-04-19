@@ -1,7 +1,7 @@
 <?php
-	$title='PATLS : ';
-	$path='';
-	$nav='';
+	$title='PALTS : @pgTitle';
+	$path='@path';
+	$nav='@nav';
 	include($path.'assets/inc/header.php');
 ?>
 </head>
