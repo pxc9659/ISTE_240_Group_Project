@@ -27,3 +27,7 @@
 
 
 ?>
+
+<?php
+	include($path.'assets/inc/footer.php');
+?>
