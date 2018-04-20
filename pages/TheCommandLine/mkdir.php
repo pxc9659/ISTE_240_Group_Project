@@ -1,36 +1,27 @@
+<!-- Head PHP Block -->
 <?php
-	$title='PALTS : mkdir';
+	// Get the page name from the file name
+	$pageName = basename(__FILE__, '.php');
 	$path='../../';
-	$nav='mkdir';
-	include($path.'assets/inc/head.php');
+	$nav=$pageName;
+	require($path.'assets/inc/functions.php'); // The file that contains global functions
+	$title='PALTS : '.getPageName($pageName);
+	require($path.'assets/inc/head.php');
+	require($path.'../../groupconn.php');
 ?>
-<hr>
-<h2>The Command Line: mkdir</h2>
-<hr>
-<picture class="titlePicture">
-	<source media="(max-width: 450px)" srcset="https://i.imgur.com/B68j3qE.png">
-	<source media="(max-width: 1024px)" srcset="https://i.imgur.com/yYEWJuA.png">
-	<img src="https://i.imgur.com/BHXiqn1.png" alt="An example of the mkdir command being ran.">
-</picture>
-<p>
-	This command is used to make directories.
-	 Directories are similar to physical folders, in that they can contain other folders and files.
-	 This command has a few arguments that make it more useful:
-</p>
-<pre class="preBox">user@hostname$ mkdir -p</pre>
-<p class="preText">
-	Creates parent directories if they do not exist.
-	 If the command ‘mkdir -p folder/inside’ is executed, assuming the folder is empty, this command will create both the ‘folder’ and ‘inside’ directories.
-</p>
-<pre class="preBox">user@hostname$ mkdir -m</pre>
-<p class="preText">
-	Allows the user to define custom permissions on the folder being created.
-	 This is useful for combining two commands into one.
-	 Now, the user does not have to change the permissions of the folder after creation.
-	 An example of a way this flag could be used is ‘mkdir -m 777 /folder/inside’.
-</p>
+<!-- Content PHP Block -->
+<?php
+	// Get page data
+	$result = $conn->query('SELECT * FROM Pages WHERE PageName = \''.$pageName.'\'');
+	// Read in page data and echo to the webpage
+	while ($resultArr = $result->fetch_assoc()) {
+		$pageNameString = getPageName($pageName);
+		echo '<hr><h2>'.$resultArr['PageParent'].': '.$pageNameString.'</h2><hr>';
+		echo $resultArr['Content'];
+	}
+
+?>
+<!-- Footer PHP Block -->
 <?php
 	include($path.'assets/inc/footer.php');
 ?>
-
-
