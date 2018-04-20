@@ -56,7 +56,7 @@
 		<li><a href="<?php echo $path;?>pages/system/du.php">du</a></li>
 		<li><a href="<?php echo $path;?>pages/system/ping.php">ping</a></li>
 		<li><a href="<?php echo $path;?>pages/system/df.php">df</a></li>
-		<li><a href="<?php echo $path;?>pages/system/ipconfig.php">ipconfig</a></li>
+		<li><a href="<?php echo $path;?>pages/system/ipconfig.php">ifconfig</a></li>
 		<li><a href="<?php echo $path;?>pages/system/free.php">free</a></li>
 		<li><a href="<?php echo $path;?>pages/system/quiz.php">Quiz</a></li>
 	</ul>
