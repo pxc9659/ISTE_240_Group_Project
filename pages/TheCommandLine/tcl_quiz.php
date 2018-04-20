@@ -16,10 +16,10 @@ include($path.'assets/inc/head.php');
 		<input class="answer" type="radio" name="q1" value="0" id="q1a2">
 		<label for="q1a2">ls -lt</label>
 		<br>
-		<input class="answer" type="radio" name="q1" value="0" id="q1a3">
+		<input class="answer" type="radio" name="q1" value="2" id="q1a3">
 		<label for="q1a3">ls</label>
 		<br>
-		<input class="answer" type="radio" name="q1" value="0" id="q1a4">
+		<input class="answer" type="radio" name="q1" value="3" id="q1a4">
 		<label for="q1a4">ls -l</label>
 		</div>
 
@@ -32,10 +32,10 @@ include($path.'assets/inc/head.php');
 		<input class="answer" type="radio" name="q2" value="1" id="q2a2">
 		<label id="correctString2" for="q2a2">mkdir</label>
 		<br>
-		<input class="answer" type="radio" name="q2" value="0" id="q2a3">
+		<input class="answer" type="radio" name="q2" value="2" id="q2a3">
 		<label for="q2a3">mkfile</label>
 		<br>
-		<input class="answer" type="radio" name="q2" value="0" id="q2a4">
+		<input class="answer" type="radio" name="q2" value="3" id="q2a4">
 		<label for="q2a4">mkd</label>
 		</div>
 
@@ -43,7 +43,7 @@ include($path.'assets/inc/head.php');
 			<p class="question">3.How do you go to root directory?</p>
 
 		<input class="answer" type="radio" name="q3" value="0" id="q3a1">
-		<label id="q3a1" for="q3a1">cd ..</label>
+		<label for="q3a1">cd ..</label>
 		<br>
 		<input class="answer" type="radio" name="q3" value="1" id="q3a2">
 		<label id="correctString3" for="q3a2">cd /</label>
@@ -91,7 +91,7 @@ include($path.'assets/inc/head.php');
 			<p class="question">6.What does rm -r command do? </p>
 
 		<input class="answer" type="radio" name="q6" value="1" id="q6a1">
-		<label id="correctString6" for="q6a1">It makes sure the directory is empty before deleting it.</label>
+		<label id="correctString6" for="q6a1">It recursively removes directories if they are empty.</label>
 		<br>
 		<input class="answer" type="radio" name="q6" value="0" id="q6a2">
 		<label for="q6a2">It just removes the directory.</label>
