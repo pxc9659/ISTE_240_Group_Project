@@ -1,7 +1,7 @@
 <?php
 	$title='PALTS : HOME';
 	$path='./';
-	$nav='';
+	$nav='home';
 	include($path.'assets/inc/head.php');
 	// include($path.'assets/inc/nav.php');
 ?>
