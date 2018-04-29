@@ -107,6 +107,10 @@ table tr th, table tr td {
 	padding: .75em;
 }
 
+.hide {
+    display: none;
+}
+
 /* ############################################### */
 /* This section is for the banner image. */
 /* ############################################### */
@@ -326,6 +330,7 @@ main > pre.preBox {
     margin-bottom: 2em;
     margin-top: 1em;
     color: #f4f4f4;
+    text-decoration: none;
 }
 
 #previous {
@@ -339,7 +344,7 @@ main > pre.preBox {
 .button:hover{
     background-color: #85dcd5;
     color: #444247;
-    cursor: pointer;
+    /*cursor: pointer;*/
 }
 
 

@@ -8,18 +8,21 @@
 	$title='PALTS : '.getPageName($pageName);
 	require($path.'assets/inc/head.php');
 	require($path.'../../groupconn.php');
+
+	// Get page data
+	$resultArr = $conn->query('SELECT * FROM Pages WHERE PageName = \''.$pageName.'\'')->fetch_assoc();
+
+	// Assign next and previous pages
+	$prev = $resultArr['PrevPage'];
+	$next = $resultArr['NextPage'];
+
 ?>
 <!-- Content PHP Block -->
 <?php
-	// Get page data
-	$result = $conn->query('SELECT * FROM Pages WHERE PageName = \''.$pageName.'\'');
 	// Read in page data and echo to the webpage
-	while ($resultArr = $result->fetch_assoc()) {
-		$pageNameString = getPageName($pageName);
-		echo '<hr><h2>'.$resultArr['PageParent'].': '.$pageNameString.'</h2><hr>';
-		echo $resultArr['Content'];
-	}
-
+	$pageNameString = getPageName($pageName);
+	echo '<hr><h2>'.$resultArr['PageParent'].': '.$pageNameString.'</h2><hr>';
+	echo $resultArr['Content'];
 ?>
 <!-- Footer PHP Block -->
 <?php
