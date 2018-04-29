@@ -1,8 +1,8 @@
 <?php
-$title='PALTS : Quiz 1';
-$path='../../';
-$nav='tcl_quiz';
-include($path.'assets/inc/head.php');
+	$title='PALTS : Command Line Quiz';
+	$path='../../';
+	$nav='tcl_quiz';
+	include($path.'assets/inc/head.php');
 ?>
   <h2 class="quizHeader">Take a Quiz!</h2>
 
