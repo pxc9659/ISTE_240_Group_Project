@@ -1,3 +1,8 @@
+<div class="buttonWrapper">
+	<button id="previous">Previous</button>
+	<button id="next">Next</button>
+</div>
+
 </main>
 	<footer>
 		<p>
