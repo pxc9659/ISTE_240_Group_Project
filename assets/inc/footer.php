@@ -1,6 +1,6 @@
 <div class="buttonWrapper">
-	<button id="previous">Previous</button>
-	<button id="next">Next</button>
+	<a class="button" id="previous">Previous</a>
+	<a class="button" id="next">Next</a>
 </div>
 
 </main>
