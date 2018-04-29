@@ -1,6 +1,6 @@
-<div class="buttonWrapper">
-	<a class="button" id="previous">Previous</a>
-	<a class="button" id="next">Next</a>
+<div class="buttonWrapper <?php if (!isset($prev) && !isset($next)) echo 'hide'; ?>">
+	<a class="button <?php if (!isset($prev)) echo 'hide'; ?>" id="previous" href="<?php if (isset($prev)) echo $prev.'.php'; ?>">Previous: <?php echo getPageName($prev); ?></a>
+	<a class="button <?php if (!isset($next)) echo 'hide'; ?>" id="next" href="<?php if (isset($next)) echo $next.'.php'; ?>">Next: <?php echo getPageName($next); ?></a>
 </div>
 
 </main>

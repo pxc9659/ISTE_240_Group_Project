@@ -2,7 +2,8 @@
 	
 	$path = '../';
 	$title = 'PALTS : About';
-	require($path.'../../groupconn.php');
+	$nav = 'aboutAndContact';
+	require('../../../groupconn.php');
 
 	if (!empty($_POST['name']) && !empty($_POST['comment'])) {
 		$statement = $conn->prepare('INSERT INTO Comments (Name, Comment) VALUES (?, ?)');
