@@ -1,19 +1,19 @@
 <nav id="navDiv" class="sideNav">
 	<a href="#" class="closeButton" onclick="closeNavMobile();">&times;</a>
-	<a href="<?php echo $path;?>">Home</a>
+	<a href="<?php echo $path;?>" <?php if(isset($nav) && $nav=='home'){echo ' class="active"';}?>>Home</a>
 	<hr>
 	<input type="checkbox" name="tcl" id="tcl">
 	<label for="tcl">The Command Line</label>
 	<ul>
-		<li<?php if(isset($nav) && $nav=='tcl_introduction'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/tcl_introduction.php">&nbsp &nbsp Introduction</a></li>
-		<li<?php if(isset($nav) && $nav=='ls'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/ls.php">&nbsp &nbsp ls</a></li>
-		<li<?php if(isset($nav) && $nav=='pwd'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/pwd.php">&nbsp &nbsp pwd</a></li>
-		<li<?php if(isset($nav) && $nav=='rm'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/rm.php">&nbsp &nbsp rm</a></li>
-		<li<?php if(isset($nav) && $nav=='cd'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/cd.php">&nbsp &nbsp cd</a></li>
-		<li<?php if(isset($nav) && $nav=='man'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/man.php">&nbsp &nbsp man</a></li>
-		<li<?php if(isset($nav) && $nav=='mkdir'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/mkdir.php">&nbsp &nbsp mkdir</a></li>
-		<li<?php if(isset($nav) && $nav=='rmdir'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/rmdir.php">&nbsp &nbsp rmdir</a></li>
-		<li<?php if(isset($nav) && $nav=='tcl_quiz'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/tcl_quiz.php">&nbsp &nbsp Quiz</a></li>
+		<li<?php if(isset($nav) && $nav=='tcl_introduction'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/tcl_introduction.php">&nbsp; &nbsp; Introduction</a></li>
+		<li<?php if(isset($nav) && $nav=='ls'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/ls.php">&nbsp; &nbsp; ls</a></li>
+		<li<?php if(isset($nav) && $nav=='pwd'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/pwd.php">&nbsp; &nbsp; pwd</a></li>
+		<li<?php if(isset($nav) && $nav=='rm'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/rm.php">&nbsp; &nbsp; rm</a></li>
+		<li<?php if(isset($nav) && $nav=='cd'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/cd.php">&nbsp; &nbsp; cd</a></li>
+		<li<?php if(isset($nav) && $nav=='man'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/man.php">&nbsp; &nbsp; man</a></li>
+		<li<?php if(isset($nav) && $nav=='mkdir'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/mkdir.php">&nbsp; &nbsp; mkdir</a></li>
+		<li<?php if(isset($nav) && $nav=='rmdir'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/rmdir.php">&nbsp; &nbsp; rmdir</a></li>
+		<li<?php if(isset($nav) && $nav=='tcl_quiz'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/TheCommandLine/tcl_quiz.php">&nbsp; &nbsp; Quiz</a></li>
 	</ul>
 
 	<input type="checkbox" name="files" id="files">
@@ -36,42 +36,42 @@
 	<input type="checkbox" name="permissions" id="permissions">
 	<label for="permissions">Permissions</label>
 	<ul>
-		<li<?php if(isset($nav) && $nav=='permissions_introduction'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/permissions/permissions_introduction.php">Introduction</a></li>
-		<li<?php if(isset($nav) && $nav=='file_permissions'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/permissions/file_permissions.php">File Permissions</a></li>
-		<li<?php if(isset($nav) && $nav=='chmod'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/permissions/chmod.php">chmod</a></li>
-		<li<?php if(isset($nav) && $nav=='chown'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/permissions/chown.php">chown</a></li>
-		<li<?php if(isset($nav) && $nav=='group_del_add'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/permissions/group_del_add.php">groupadd/groupdel</a></li>
-		<li<?php if(isset($nav) && $nav=='user_del_add'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/permissions/user_del_add.php">useradd/userdel</a></li>
-		<li<?php if(isset($nav) && $nav=='permissions_quiz'){echo ' class="active" style="background: #4f4e4e"';}?>><a href="<?php echo $path;?>pages/permissions/permissions_quiz.php">Quiz</a></li>
+		<li<?php if(isset($nav) && $nav=='permissions_introduction'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/permissions/permissions_introduction.php">Introduction</a></li>
+		<li<?php if(isset($nav) && $nav=='file_permissions'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/permissions/file_permissions.php">File Permissions</a></li>
+		<li<?php if(isset($nav) && $nav=='chmod'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/permissions/chmod.php">chmod</a></li>
+		<li<?php if(isset($nav) && $nav=='chown'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/permissions/chown.php">chown</a></li>
+		<li<?php if(isset($nav) && $nav=='group_del_add'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/permissions/group_del_add.php">groupadd/groupdel</a></li>
+		<li<?php if(isset($nav) && $nav=='user_del_add'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/permissions/user_del_add.php">useradd/userdel</a></li>
+		<li<?php if(isset($nav) && $nav=='permissions_quiz'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/permissions/permissions_quiz.php">Quiz</a></li>
 	</ul>
 
 	<input type="checkbox" name="system" id="system">
 	<label for="system">System Information</label>
 	<ul>
-		<li><a href="<?php echo $path;?>pages/system/system_introduction.php">Introduction</a></li>
-		<li><a href="<?php echo $path;?>pages/system/top.php">top</a></li>
-		<li><a href="<?php echo $path;?>pages/system/w.php">w</a></li>
-		<li><a href="<?php echo $path;?>pages/system/du.php">du</a></li>
-		<li><a href="<?php echo $path;?>pages/system/ping.php">ping</a></li>
-		<li><a href="<?php echo $path;?>pages/system/df.php">df</a></li>
-		<li><a href="<?php echo $path;?>pages/system/ipconfig.php">ipconfig</a></li>
-		<li><a href="<?php echo $path;?>pages/system/free.php">free</a></li>
-		<li><a href="<?php echo $path;?>pages/system/quiz.php">Quiz</a></li>
+		<li<?php if(isset($nav) && $nav=='system_introduction'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/SystemInformation/system_introduction.php">Introduction</a></li>
+		<li<?php if(isset($nav) && $nav=='top'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/SystemInformation/top.php">top</a></li>
+		<li<?php if(isset($nav) && $nav=='w'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/SystemInformation/w.php">w</a></li>
+		<li<?php if(isset($nav) && $nav=='du'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/SystemInformation/du.php">du</a></li>
+		<li<?php if(isset($nav) && $nav=='ping'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/SystemInformation/ping.php">ping</a></li>
+		<li<?php if(isset($nav) && $nav=='df'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/SystemInformation/df.php">df</a></li>
+		<li<?php if(isset($nav) && $nav=='ifconfig'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/SystemInformation/ifconfig.php">ifconfig</a></li>
+		<li<?php if(isset($nav) && $nav=='free'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/SystemInformation/free.php">free</a></li>
+		<li<?php if(isset($nav) && $nav=='system_quiz'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/SystemInformation/system_quiz.php">Quiz</a></li>
 	</ul>
 
 	<input type="checkbox" name="netservices" id="netservices">
 	<label for="netservices">Network Services</label>
 	<ul>
-		<li><a href="<?php echo $path;?>pages/netservices/netservices_introduction.php">Introduction</a></li>
-		<li><a href="<?php echo $path;?>pages/netservices/scp.php">scp</a></li>
-		<li><a href="<?php echo $path;?>pages/netservices/ssh.php">ssh</a></li>
-		<li><a href="<?php echo $path;?>pages/netservices/http.php">http</a></li>
-		<li><a href="<?php echo $path;?>pages/netservices/ftp.php">ftp</a></li>
-		<li><a href="<?php echo $path;?>pages/netservices/netstat.php">netstat</a></li>
-		<li><a href="<?php echo $path;?>pages/netservices/iptables.php">iptables</a></li>
-		<li><a href="<?php echo $path;?>pages/netservices/nfs.php">nfs</a></li>
-		<li><a href="<?php echo $path;?>pages/netservices/samba.php">samba</a></li>
-		<li><a href="<?php echo $path;?>pages/netservices/quiz.php">Quiz</a></li>
+		<li<?php if(isset($nav) && $nav=='netservices_introduction'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/netservices/netservices_introduction.php">Introduction</a></li>
+		<li<?php if(isset($nav) && $nav=='scp'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/netservices/scp.php">scp</a></li>
+		<li<?php if(isset($nav) && $nav=='ssh'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/netservices/ssh.php">ssh</a></li>
+		<li<?php if(isset($nav) && $nav=='wget'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/netservices/wget.php">wget</a></li>
+		<li<?php if(isset($nav) && $nav=='ftp'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/netservices/ftp.php">ftp</a></li>
+		<li<?php if(isset($nav) && $nav=='netstat'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/netservices/netstat.php">netstat</a></li>
+		<li<?php if(isset($nav) && $nav=='iptables'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/netservices/iptables.php">iptables</a></li>
+		<li<?php if(isset($nav) && $nav=='nfs'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/netservices/nfs.php">nfs</a></li>
+		<li<?php if(isset($nav) && $nav=='samba'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/netservices/samba.php">samba</a></li>
+		<li<?php if(isset($nav) && $nav=='netservices_quiz'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/netservices/netservices_quiz.php">Quiz</a></li>
 	</ul>
 
 	<input type="checkbox" name="distros" id="distros">
@@ -89,7 +89,6 @@
 		<li><a href="<?php echo $path;?>pages/distros/quiz.php">Quiz</a></li>
 	</ul>
 	<hr>
-	<a href="<?php echo $path;?>pages/aboutAndContact.php">About Us &amp; Contact</a>
+	<a href="<?php echo $path;?>pages/aboutAndContact.php" <?php if(isset($nav) && $nav=='aboutAndContact'){echo 'class="active"';}?>>About Us &amp; Contact</a>
 </nav>
 <div id="openNav" onclick="openNavMobile();">&#9776;</div>
-
