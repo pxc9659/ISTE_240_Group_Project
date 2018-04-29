@@ -89,6 +89,6 @@
 		<li><a href="<?php echo $path;?>pages/distros/quiz.php">Quiz</a></li>
 	</ul>
 	<hr>
-	<a href="<?php echo $path;?>pages/aboutAndContact.php">About Us &amp; Contact</a>
+	<a href="<?php echo $path;?>pages/aboutAndContact.php" <?php if(isset($nav) && $nav=='aboutAndContact'){echo 'class="active"';}?>>About Us &amp; Contact</a>
 </nav>
 <div id="openNav" onclick="openNavMobile();">&#9776;</div>
