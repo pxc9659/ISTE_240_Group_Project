@@ -328,7 +328,7 @@ main > pre.preBox {
     border-color: #2c9b93;
     border: none;
     margin-bottom: 2em;
-    margin-top: 1em;
+    margin-top: .5em;
     color: #f4f4f4;
     text-decoration: none;
 }
@@ -344,7 +344,6 @@ main > pre.preBox {
 .button:hover{
     background-color: #85dcd5;
     color: #444247;
-    /*cursor: pointer;*/
 }
 
 
