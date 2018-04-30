@@ -128,13 +128,13 @@
   </div>
 
 <!--show only wrong answers on submit-->
-    <div class="quizAnswers" id="correctAnswer1"></div>
-	<div class="quizAnswers" id="correctAnswer2"></div>
-    <div class="quizAnswers" id="correctAnswer3"></div>
-    <div class="quizAnswers" id="correctAnswer4"></div>
-	<div class="quizAnswers" id="correctAnswer5"></div>
-	<div class="quizAnswers" id="correctAnswer6"></div>
-	<div class="quizAnswers" id="correctAnswer7"></div>
+    <div class="quizAnswers" id="correctAnswer1"><p><a href="ls.php">Check out the ls command</a></p></div>
+	<div class="quizAnswers" id="correctAnswer2"><p><a href="mkdir.php">Check out the mkdir command </a></p></div>
+    <div class="quizAnswers" id="correctAnswer3"><p><a href="cd.php">Check out the cd command </a></p></div>
+    <div class="quizAnswers" id="correctAnswer4"><p><a href="man.php">Check out the man command </a></p></div>
+	<div class="quizAnswers" id="correctAnswer5"><p><a href="rmdir.php">Check out the rmdir command </a></p></div>
+	<div class="quizAnswers" id="correctAnswer6"><p><a href="rm.php">Check out the rm command </a></p></div>
+	<div class="quizAnswers" id="correctAnswer7"><p><a href="pwd.php">Check out the pwd command </a></p></div>
 
 
 <!--show score upon submit-->
