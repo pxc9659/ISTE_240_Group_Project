@@ -19,7 +19,7 @@
 	<input type="checkbox" name="files" id="files">
 	<label for="files">Files</label>
 	<ul>
-		<li<?php if(isset($nav) && $nav=='ls'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/files/files_introduction.php">Introduction</a></li>
+		<li<?php if(isset($nav) && $nav=='files_introduction'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/files/files_introduction.php">Introduction</a></li>
 		<li<?php if(isset($nav) && $nav=='head'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/files/head.php">head</a></li>
 		<li<?php if(isset($nav) && $nav=='tail'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/files/tail.php">tail</a></li>
 		<li<?php if(isset($nav) && $nav=='grep'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/files/grep.php">grep</a></li>
