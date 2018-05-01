@@ -30,7 +30,7 @@
 		<li<?php if(isset($nav) && $nav=='locate'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/files/locate.php">locate</a></li>
 		<li<?php if(isset($nav) && $nav=='less'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/files/less.php">less</a></li>
 		<li<?php if(isset($nav) && $nav=='cat'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/files/cat.php">cat</a></li>
-		<li<?php if(isset($nav) && $nav=='files_quiz'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/files/quiz.php">Quiz</a></li>
+		<li<?php if(isset($nav) && $nav=='files_quiz'){echo ' class="active"';}?>><a href="<?php echo $path;?>pages/files/files_quiz.php">Quiz</a></li>
 	</ul>
 
 	<input type="checkbox" name="permissions" id="permissions">
