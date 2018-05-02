@@ -226,7 +226,11 @@ main > pre.preBox {
 .sideNav input[type=checkbox]:checked + label + ul {
     display: block;
     background-color:#1d1c1f;
-    transition: display 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out;
+}
+
+.sideNav li:hover{
+   background:#4f4e4e;
 }
 
 .sideNav input[type=checkbox]:checked + label {
@@ -265,14 +269,15 @@ main > pre.preBox {
 
     #openNav {
 	position: fixed;
-	padding: 0.5em;
+	padding: .75em;
 	background-color: #444247;
 	border-top: 1px solid #f4f4f4;
 	border-right: 1px solid #f4f4f4;
 	border-bottom: 1px solid #f4f4f4;
 	top: 5%;
-	left: 10px;
+	left: -3px;
 	color: #f4f4f4;
+	border-radius: 5px;
     }
 
 }
