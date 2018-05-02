@@ -111,6 +111,22 @@ table tr th, table tr td {
     display: none;
 }
 
+.qAnswr{
+    display: none;
+}
+
+p a{
+   color: #49cbc1;
+}
+
+p a:hover{
+    color: #ffda8b;
+}
+
+p a:active{
+    color: #ffbb69;
+}
+
 /* ############################################### */
 /* This section is for the banner image. */
 /* ############################################### */
