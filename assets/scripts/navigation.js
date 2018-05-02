@@ -23,8 +23,8 @@ function closeNavMobile(){
 }
 
 function getActive(){
-	var ac = document.getElementsByClassName("active")[0];
-	if(ac != ""){
-		ac.parentNode.previousElementSibling.previousElementSibling.checked = true;
+	var active = document.getElementsByClassName("active")[0];
+	if( (active != "") && (active.parentNode.previousElementSibling != null) ) {
+		active.parentNode.previousElementSibling.previousElementSibling.checked = true;
 	}
 }
