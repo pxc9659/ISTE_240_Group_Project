@@ -9,6 +9,25 @@ function submitQuiz_TCL_QUIZ() {
 			if (radiosNo[i].checked) {
 				// do something with radiosNo
 				var answerValue = Number(radiosNo[i].value);
+				console.log(radiosNo[i].value);
+				if(radiosNo[i].value === '0'){
+					var label = radiosNo[i].nextElementSibling;
+					label.style.color = 'red';
+
+					//
+					var num = qName.substring(1);
+					console.log(num);
+					var correctAnswer = "answer" + num;
+					console.log(correctAnswer);
+					var thing = document.getElementById(correctAnswer);
+					thing.style.display = 'block';
+					console.log(thing);
+				}
+			}
+			//if its right always display green
+			if(radiosNo[i].value === '1'){
+				var label = radiosNo[i].nextElementSibling;
+				label.style.color = 'lightgreen';
 			}
 		}
 		// change NaNs to zero
@@ -32,58 +51,25 @@ function submitQuiz_TCL_QUIZ() {
 	// print correct answers and  only if wrong (calls correctAnswer function)
 	if (answerScore('q1') === 0) {
 		document.getElementById('correctAnswer1').innerHTML = correctAnswer('correctString1', 1);
-        document.getElementById('correctAnswer1').style.color = 'red';	
 	}
 	if (answerScore('q2') === 0) {
 		document.getElementById('correctAnswer2').innerHTML = correctAnswer('correctString2', 2);
-		document.getElementById('correctAnswer2').style.color = 'red';	
 	}
 	if (answerScore('q3') === 0) {
-		document.getElementById('correctAnswer3').innerHTML = correctAnswer('correctString3', 3);
-	    document.getElementById('correctAnswer3').style.color = 'red';	
+		document.getElementById('correctAnswer3').innerHTML = correctAnswer('correctString3', 3);	
 	}
 	if (answerScore('q4') === 0) {
 		document.getElementById('correctAnswer4').innerHTML = correctAnswer('correctString4', 4);
-	    document.getElementById('correctAnswer4').style.color = 'red';	
 	}
 	if (answerScore('q5') === 0) {
-		document.getElementById('correctAnswer5').innerHTML = correctAnswer('correctString5', 5);
-	    document.getElementById('correctAnswer5').style.color = 'red';	
+		document.getElementById('correctAnswer5').innerHTML = correctAnswer('correctString5', 5);	
 	}
 	if (answerScore('q6') === 0) {
-		document.getElementById('correctAnswer6').innerHTML = correctAnswer('correctString6', 6);
-	    document.getElementById('correctAnswer6').style.color = 'red';	
+		document.getElementById('correctAnswer6').innerHTML = correctAnswer('correctString6', 6);	
 	}
 	if (answerScore('q7') === 0) {
 		document.getElementById('correctAnswer7').innerHTML = correctAnswer('correctString7', 7);
-	    document.getElementById('correctAnswer7').style.color = 'red';	
 	}
-	
-	
-	//higlighting for right answers
-	if (answerScore('q1') === 1) {
-		document.getElementById('correctAnswer1').style.color = 'lightgreen';	
-	}
-	if (answerScore('q2') === 1) {
-		document.getElementById('correctAnswer2').style.color = 'lightgreen';	
-	}
-	if (answerScore('q3') === 1) {
-		document.getElementById('correctAnswer3').style.color = 'lightgreen';	
-	}
-	if (answerScore('q4') === 1) {
-		document.getElementById('correctAnswer4').style.color = 'lightgreen';	
-	}
-	if (answerScore('q5') === 1) {
-		document.getElementById('correctAnswer5').style.color = 'lightgreen';	
-	}
-	if (answerScore('q6') === 1) {
-		document.getElementById('correctAnswer6').style.color = 'lightgreen';	
-	}
-	if (answerScore('q7') === 1) {
-		document.getElementById('correctAnswer7').style.color = 'lightgreen';	
-	}
-
-
 
 	// calculate "possible score" integer
 	var questionCountArray = document.getElementsByClassName('question');
@@ -98,6 +84,6 @@ function submitQuiz_TCL_QUIZ() {
 	// if 4/4, "perfect score!"
 	if (calcScore === questionCounter) {
 		showScore = showScore + "&nbsp; <strong>Perfect Score!</strong>"
-	};
+	}
 	document.getElementById('userScore').innerHTML = showScore;
 }
